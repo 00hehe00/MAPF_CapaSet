@@ -44,7 +44,7 @@ The code is distributed for academic and non-commercial use. THE SOFTWARE IS PRO
    ```sh
    ./lsrp ../demo/warehouse-10-20-10-2-1.map ../demo/warehouse-10-20-10-2-1-random-1.scen ../demo/duration.txt 30 swap ../demo/output.txt
    ```
-  If you do not enter <node_capacity>, then the capacity will default to 1 for all nodes and execute the most basic Lsrp
+   If you do not enter <node_capacity>, then the capacity will default to 1 for all nodes and execute the most basic Lsrp
    ```sh   
     ./lsrp ../demo/warehouse-10-20-10-2-1.map ../demo/warehouse-10-20-10-2-1-random-1.scen ../demo/duration.txt 30 swap 
    ```
@@ -53,7 +53,7 @@ The code is distributed for academic and non-commercial use. THE SOFTWARE IS PRO
 - `<scen_path>`: The path to the scenario file.
 - `<duration_path>`: The path to the duration file where the durations for each agent is written.
 - `<runtime>`: The maximum runtime for the algorithm in seconds.
-- `<node_capacity>:The capacity seted for each node
+- `<node_capacity>`:The capacity seted for each node
 - `[swap]` (optional): If provided, enables the swap feature.
 
 #### Example 
